@@ -18,7 +18,6 @@
   "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
     "express": "^4.17.1",
-      "dotenv": "^8.2.0", 
     "mongoose": "^5.10.11"
   }
 }
