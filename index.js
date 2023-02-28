@@ -16,7 +16,7 @@ mongoose.connect(MONGO_URI, {
 })
     .then(() => console.log('MongoDB connected!'))
     .catch(err => console.log(err));
-app.use('/api/posts', postsRoutes);
+app.use('/', postsRoutes);
 // app.all('/', (req, res) => {
 //     console.log("Just got a request!")
 //     res.send('Yo!')
